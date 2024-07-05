@@ -1,0 +1,114 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+a {
+  text-decoration: none; 
+  color: inherit; 
+}
+
+.first-header {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.second-header {
+  color: black;
+  margin-top: 8px;
+  font-weight: bold ;
+}
+
+.web-pfp {
+  width: 160px;
+  border-radius: 150px;
+  transition: width 0.6s;
+}
+
+.web-pfp:hover {
+  width: 350px;
+  border-radius: 200px;
+}
+
+.footer {
+  margin-top: 8px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.social-size {
+  width: 32px;
+  cursor: pointer;
+  transition: width 0.5s;
+}
+
+.social-size:hover {
+  width: 50px;
+}
+
+.figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 60px;
+  margin-right: 400px;
+  margin-left: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social {
+  border: none;
+  background-color: white;
+  padding: 0;
+  margin-top: 7px;
+}
+
+.social-link {
+  text-decoration: none; 
+  margin-right: 10px; 
+}
+.third-header{
+  margin-top: 8px;
+  font-size: 12px;
+}
+.main{
+text-align: center;
+margin-top: 80px;
+}
+.home,.pics,.bookshelf{
+  margin-right: 110px;
+  transition: 0.2s;
+}
+.about:hover,.bookshelf:hover,.home:hover,.pics:hover{
+  font-weight: bold;
+  color: blue;
+  font-size: 13px;
+  
+}
+.about-me-pt{
+  margin-top: 60px;
+  margin-right: 400px;
+  margin-left: 400px;
+  text-align:justify;
+}
+.about-me-making{
+  margin-top: 8px;
+  margin-top: 40px;
+  margin-right: 400px;
+  margin-left: 400px;
+  text-align:justify;
+  font-weight: bold;
+  font-style: italic;
+}
+.isel{
+  font-weight: bold;
+}
